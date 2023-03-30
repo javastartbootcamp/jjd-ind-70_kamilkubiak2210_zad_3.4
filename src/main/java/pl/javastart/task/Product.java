@@ -2,7 +2,7 @@ package pl.javastart.task;
 
 public class Product {
     private final String name;
-    private double price;
+    private final double price;
     private final String description;
     private final Category category;
 
@@ -19,10 +19,6 @@ public class Product {
 
     public double getPrice() {
         return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 
     public String getDescription() {
